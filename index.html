@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascometro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" ></script>
+</head>
+<body>
+
+ <div class="container">
+    <h1 class="title">Churrascometro</h1>
+    <input id="adultos" onchange="NdA()" class="input" type="number"placeholder="numero de adultos">
+    <input id="crianças" onchange="NdC()" class="input" type="number" placeholder="numero de crianças">
+    <input id="duração" onchange="Dur()" class="input" type="number" placeholder="duração do evento">
+
+    <button class="button-name" onclick="btn()">CALCULAR</button>
+
+    <ul class="result">
+        <li>&& Gramas de Carne</li>
+        <li>&& Ml de cerveja</li>
+        <li>&& Ml de refrigerante/água</li>
+    </ul>
+ </div>
+
+</body>
+
+</html>
